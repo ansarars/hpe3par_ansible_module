@@ -1668,6 +1668,7 @@ def main():
             storage_system_ip,
             remote_copy_group_name
         )
+    #if return_status:
     if return_status:
         if issue_attr_dict:
             module.exit_json(changed=changed, msg=msg, output=issue_attr_dict)
